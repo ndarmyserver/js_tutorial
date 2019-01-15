@@ -9,8 +9,6 @@ if (phrase.palindrome()) {
 } else {
   alert(`"${phrase.content}" is not a palindrome.`);
 }
-
-alert(new Phrase("Madam, I'm Adam.").palindrome());
 },{"ndarmyserver-palindrome":2}],2:[function(require,module,exports){
 module.exports = Phrase;
 
